@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVVM.DataAccess\MVVM.DataAccess.csproj" />
+    <ProjectReference Include="..\MVVM.Models\MVVM.Models.csproj" />
+    <ProjectReference Include="..\MVVM.ViewModels\MVVM.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
